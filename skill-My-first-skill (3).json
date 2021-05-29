@@ -1,0 +1,924 @@
+{
+  "intents": [
+    {
+      "intent": "asking",
+      "examples": [
+        {
+          "text": "beaches goa"
+        },
+        {
+          "text": "goa beach"
+        },
+        {
+          "text": "name of beaches in goa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "DJNIGHTONLINEBOOKING",
+      "examples": [
+        {
+          "text": "dj night online booking"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "flightbooking",
+      "examples": [
+        {
+          "text": "flight"
+        },
+        {
+          "text": "flight booking"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greet",
+      "examples": [
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hotels",
+      "examples": [
+        {
+          "text": "goa hotels"
+        },
+        {
+          "text": "hotel goa"
+        },
+        {
+          "text": "hotels in goa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hotelsbooking",
+      "examples": [
+        {
+          "text": "hotel living"
+        },
+        {
+          "text": "hotels to stay"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hotelsbooking2",
+      "examples": [
+        {
+          "text": "bookings"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "images",
+      "examples": [
+        {
+          "text": "goa"
+        },
+        {
+          "text": "goa image"
+        },
+        {
+          "text": "image goa beaches"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "low_rate_hotels",
+      "examples": [
+        {
+          "text": "1000-2000 rs hotels"
+        },
+        {
+          "text": "2000-3000 rs hotels"
+        },
+        {
+          "text": "3000-4000 rs hotels"
+        },
+        {
+          "text": "4000-5000 rs hotels"
+        },
+        {
+          "text": "5000-6000 rs hotels"
+        },
+        {
+          "text": "low rate hotels"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "onlinehotelbooking",
+      "examples": [
+        {
+          "text": "hotel online booking"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "onlinetrainbooking",
+      "examples": [
+        {
+          "text": "train booking"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "restaurant",
+      "examples": [
+        {
+          "text": "food restaurant"
+        },
+        {
+          "text": "restaurants"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "asking",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "goa beaches",
+          "synonyms": [
+            "beach goa"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "DJNIGHTONLINEBOOKING",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dj night online booking",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "flightbooking",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "flightbooking",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hotels",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "goa hotels",
+          "synonyms": [
+            "hotel in goa "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hotelsbooking",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hotel living",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hotels to stay",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hotelsbooking2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hotel living",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "images",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "goa beach image",
+          "synonyms": [
+            "beach photo goa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "goa image",
+          "synonyms": [
+            "image goa "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "low_rate_hotels",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "low rate hotels",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "onlinehotelbooking",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hotel online booking",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "onlinetrainbooking",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "train booking",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "restaurants",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "eating hotels",
+          "synonyms": [
+            "best food",
+            "food"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1596705891404",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "DJ NIGHT ONLINE BOOKING",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HERE ARE TOP 3 SOURCES TO BOOK ONLINE DJ NIGHTS HAVE A GREAT AND ENJOYABLE NIGHT!! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 1: www.treebo.com/blog/clubs-in-north-goa/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 2: https://www.ixigo.com/nightclubs-in-at-around-near-goa-lp-1140521\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 3 : https://www.holidify.com/pages/nightlife-in-goa-things-to-do-1334.html\n "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#DJNIGHTONLINEBOOKING",
+      "dialog_node": "node_1_1598945801891",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "hotel",
+      "output": {
+        "generic": [
+          {
+            "title": "first most popular hotel in goa",
+            "source": "https://ar.rdcpix.com/c5d20658f8d8aa83ed006f7402a09d2ec-f4062918403xd-w1020_h770_q80.jpg",
+            "description": " Best Seller The LaLiT Golf & Spa Resort Goa",
+            "response_type": "image"
+          },
+          {
+            "title": "second post popular hotel in goa",
+            "source": "https://r-cf.bstatic.com/xdata/images/hotel/270x200/118372635.jpg?k=954d93a61876b6e3e85505daa14586f34f8f9b82300da0199b52b35bbf1afc05&o=",
+            "description": " FabHotel Prime Sarala Crown Calangute Beach",
+            "response_type": "image"
+          },
+          {
+            "title": "3rd most popular hotel in goa ",
+            "source": "http://www.luxoindia.com/blog/wp-content/uploads/2013/11/Taj-Exotica-Goa.jpg",
+            "description": "luxia palace",
+            "response_type": "image"
+          },
+          {
+            "title": "4th most popular hotel in goa ",
+            "source": "https://www.5-star-luxury-hotels.de/assets/images/6/04-6923c486.jpg",
+            "description": "Pool Decs",
+            "response_type": "image"
+          },
+          {
+            "title": "5 th most popular hotel in goa ",
+            "source": "https://www.atriumhotels.gr/wp-content/uploads/2016/04/Atrium_hotels_spa_2.jpg?x22932",
+            "description": "Tneffle memories",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#hotels",
+      "dialog_node": "node_2_1596709576093",
+      "previous_sibling": "node_6_1596710357752"
+    },
+    {
+      "type": "standard",
+      "title": "hotelsbooking2",
+      "output": {
+        "generic": [
+          {
+            "title": "memory cascadium",
+            "source": "https://s-ec.bstatic.com/images/hotel/max1024x768/154/154185503.jpg",
+            "description": "08327112223",
+            "response_type": "image"
+          },
+          {
+            "title": "Grand hyatt goa",
+            "source": "https://i.ytimg.com/vi/ybvkAVXdbr0/maxresdefault.jpg",
+            "description": "08326641234",
+            "response_type": "image"
+          },
+          {
+            "title": "casa britona",
+            "source": "http://www.svenskahotels.com/wp-content/uploads/Casa-Anjuna.jpg",
+            "description": "07030913923",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1596864233502",
+      "conditions": "#hotelsbooking2",
+      "dialog_node": "node_2_1596866036043"
+    },
+    {
+      "type": "standard",
+      "title": "online hotel booking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HERE ARE TOP 4 SOURCES FOR BOOKING ONLINE HOTELS FOR THE PERFECT MARK OF EXCELLENCE LIVING !!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 1: https://www.booking.com/hotels\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 2: https://www.tripadvisor.in/goa\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 3: http://www.amazon.in/gift-cards/hotels \n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 4: https://www.yatra.com/hotels/hotels-in-goa\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#onlinehotelbooking",
+      "dialog_node": "node_2_1598879553062",
+      "previous_sibling": "node_4_1598944656919"
+    },
+    {
+      "type": "standard",
+      "title": "online train booking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HERE ARE TOP 3 SOURCES FOR BOOKING TRAIN TICKETS HAVE A HEALTHY AND SAFE JOURNEY!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 1: https://www.makemytrip.com/railways/mumbai-goa-train-tickets.html\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 2: https://www.goibibo.com/trains"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 3: https://www.ixigo.com/by-train-rail/mumbai-to-goa-by-train"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#onlinetrainbooking",
+      "dialog_node": "node_4_1598944656919",
+      "previous_sibling": "node_1_1598945801891"
+    },
+    {
+      "type": "standard",
+      "title": "greet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "hi"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#greet",
+      "dialog_node": "node_5_1596705891404",
+      "previous_sibling": "node_7_1596708112469"
+    },
+    {
+      "type": "standard",
+      "title": "hotel with offers",
+      "output": {
+        "generic": [
+          {
+            "title": "OYO 12647 Swarnam",
+            "source": "https://images.oyoroomscdn.com/uploads/hotel_image/3108/xlarge/a1cbb9f411c0670d.jpg",
+            "description": "9152682264",
+            "response_type": "image"
+          },
+          {
+            "title": "new image lnn",
+            "source": "https://gos3.ibcdn.com/new-image-inn-goa-facade-56923381857g.jpg",
+            "description": "915286097",
+            "response_type": "image"
+          },
+          {
+            "title": "beach queen",
+            "source": "https://www.swantour.com/sites/default/files/joecons-beach-resort-goa-1.jpg",
+            "description": "09921351",
+            "response_type": "image"
+          },
+          {
+            "title": "old goa residency",
+            "source": "https://www.bestgoadeals.com/uploads/hotel/pics/275_logopic_Old-Goa-Residency-GTDC--3-.jpg",
+            "description": "08322285327",
+            "response_type": "image"
+          },
+          {
+            "title": "Ginger Goa",
+            "source": "https://t-ec.bstatic.com/images/hotel/max1024x768/173/173009349.jpg",
+            "description": "08326643333",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#hotelsbooking",
+      "dialog_node": "node_5_1596864233502",
+      "previous_sibling": "node_9_1598873260557"
+    },
+    {
+      "type": "standard",
+      "title": "low rate hotels",
+      "output": {
+        "generic": [
+          {
+            "title": "1000-2000 rs hotel",
+            "source": "https://images.oyoroomscdn.com/uploads/hotel_image/4625/xlarge/141c2bf118a73a77.jpg",
+            "description": "Goa hotel photo\t Hotel Silken Sands",
+            "response_type": "image"
+          },
+          {
+            "title": "2000-3000 rs hotels",
+            "source": "https://images.oyoroomscdn.com/uploads/hotel_image/16528/xlarge/96f1128c9505e94f.jpg",
+            "description": "Hotel Manoshant",
+            "response_type": "image"
+          },
+          {
+            "title": "3000-4000 rs hotel",
+            "source": "https://stayincork.com/wp-content/uploads/2017/11/gabriel-house-2.jpg",
+            "description": "Gabriel Guest House",
+            "response_type": "image"
+          },
+          {
+            "title": "4000-5000 rs hotel",
+            "source": "https://goanewswire.files.wordpress.com/2013/04/hotel-palacio-de-goa-front-facade.jpg",
+            "description": "Palacio de Goa",
+            "response_type": "image"
+          },
+          {
+            "title": "5000-6000 rs hotels",
+            "source": "https://www.impresstravel.com/img/images/hotels/VIP_Room_10.jpg",
+            "description": "Hotel Blessings",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#low_rate_hotels",
+      "dialog_node": "node_6_1596710357752",
+      "previous_sibling": "node_7_1596711854928"
+    },
+    {
+      "type": "standard",
+      "title": "asking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Palolem Beach ,Miramar beach , Bogmalo Beach"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#asking",
+      "dialog_node": "node_7_1596708112469",
+      "previous_sibling": "node_8_1596708520082"
+    },
+    {
+      "type": "standard",
+      "title": "restaurant",
+      "output": {
+        "generic": [
+          {
+            "title": "restaurant1",
+            "source": "https://www.india.com/wp-content/uploads/2017/03/Goa-Final.jpg",
+            "description": "Anjuna",
+            "response_type": "image"
+          },
+          {
+            "title": "restaurant 2",
+            "source": "http://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2017/04/cidadegoaf.jpg",
+            "description": "cidade de goa",
+            "response_type": "image"
+          },
+          {
+            "title": "restaurant 3",
+            "source": "http://whatsupgoa.com/dyn/establishments/articles/photo1-287.jpg",
+            "description": "schacks",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#restaurant",
+      "dialog_node": "node_7_1596711854928",
+      "previous_sibling": "node_5_1596864233502"
+    },
+    {
+      "type": "standard",
+      "title": "images",
+      "output": {
+        "generic": [
+          {
+            "title": "goa beach",
+            "source": "https://hisinception.files.wordpress.com/2014/02/sequerum.jpg",
+            "description": "bogamalo beach in goa",
+            "response_type": "image"
+          },
+          {
+            "title": "goa beachs",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Palolem_beach.jpg",
+            "description": "Palolem Beach in goa",
+            "response_type": "image"
+          },
+          {
+            "title": "goa photo",
+            "source": "https://www.tourmyindia.com/images/miramar-beach-goa2.jpg",
+            "description": "Miramar Beach",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#images",
+      "dialog_node": "node_8_1596708520082",
+      "previous_sibling": "node_2_1596709576093"
+    },
+    {
+      "type": "standard",
+      "title": "flight booking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HERE ARE TOP 4 AND SAFE SOURCES FOR BOOKING FLIGHTS HAVE A HAPPY AND SAFE JOURNEY!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " SOURCE 1 :  http://www.trvl.deals/cheap-flights\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 2: https://www.cleartrip.com/flight-tickets"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 3: https://www.makemytrip.com/flights"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "SOURCE 4: https://www.agoda.com/hotels/deals"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#flightbooking",
+      "dialog_node": "node_9_1598873260557",
+      "previous_sibling": "node_2_1598879553062"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "disabled": true,
+      "conditions": "#greet",
+      "dialog_node": "response_10_1596901801942"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "hi "
+              },
+              {
+                "text": "hello"
+              },
+              {
+                "text": "good morning"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1596705891404",
+      "disabled": true,
+      "conditions": "#greet",
+      "dialog_node": "response_7_1596706019958"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1596705891404",
+      "disabled": true,
+      "conditions": "#greet",
+      "dialog_node": "response_8_1596706075243",
+      "previous_sibling": "response_7_1596706019958"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HI I GAURI'S TRAVEL BOT I CAN HELP YOU WITH FOLLOWING THINGS:\n1 TO KNOW ABOUT BEST BEACHES OF GOA(NOTE: please type  beaches goa)\n2 TO SEE BEST IMAGES OF GOA(NOTE: please type goa)\n3 TO SEE BEST HOTELS OF GOA(NOTE: please type goa hotels)\n4 TO SEE BEST DEALS ON LOW RATE HOTELS(NOTE: please type low rate hotels)\n5 TO SEE BEST RESTAURANT OF GOA(NOTE: please type  food restaurant)\n6 TO SEE HOTELS THAT BRINGS GREAT OFFERS ON HOTEL BOOKING IN GOA(NOTE: please type hotels to stay)\n7 TO BOOK ONLINE HOTELS (NOTE: please type  hotel online booking)\n8 TO BOOK ONLINE FLIGHTS (NOTE: please type flight booking)\n9 TO  BOOK ONLINE TRAIN SEATS (NOTE: please type train booking)\n10 TO BOOK FABULOUS DJ NIGHTS IN GOA(NOTE: please type dj night online booking)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "bookings"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
